@@ -1,0 +1,12 @@
+Achromatischer Test — UQSH CMB v2
+=============================================
+
+Sparkling Stacking (Void minus lokale Umgebung):
+  SMICA:   ΔT = -8.50 µK, Signifikanz = -1.14σ
+  143 GHz: ΔT = -8.33 µK, Signifikanz = -1.19σ
+  217 GHz: ΔT = -8.91 µK, Signifikanz = -1.12σ
+
+Void vs. Filament (20%):
+  SMICA:   ΔT = +7.3 µK, Signifikanz = 3.28σ
+  143 GHz: ΔT = +4.3 µK, Signifikanz = 1.98σ
+  217 GHz: ΔT = +5.5 µK, Signifikanz = 2.34σ
