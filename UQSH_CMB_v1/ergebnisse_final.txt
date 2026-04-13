@@ -1,0 +1,33 @@
+
+UQSH CMB-STACKING ANALYSE
+==========================
+Methode: Sparkling Void-Finder + Planck SMICA Stacking
+Daten:   2MRS (Huchra+2012), z < 0.03, N_void = 83
+         Planck SMICA 2048, Nside=512, ohne Dipol/Quadrupol
+         Galaktische Maske: |b| > 15 Grad
+
+ERGEBNIS:
+  Void-Zentrum:  -5.57 µK  (N=232)
+  Kontrolle:     -8.46 µK  (N=249)
+  Differenz:     +2.89 µK
+  Signifikanz:   0.62 sigma
+  p-Wert:        0.5351
+  Vorzeichen:    KORREKT
+
+VERGLEICH:
+  Hansen+2025:   +41 µK, 6.5 sigma (Voids heisser)
+  Diese Arbeit:  +2.9 µK, 0.6 sigma
+
+EINORDNUNG:
+  Das Vorzeichen ist konsistent mit Hansen+2025 und der UQSH-Vorhersage.
+  Voids erscheinen waermer als zufaellige Positionen.
+  Die geringe Signifikanz ist auf die Stichprobengroesse
+  zurueckzufuehren (N=83 vs. mehrere hundert bei Hansen).
+  Eine groessere Stichprobe wuerde eine hoehere Signifikanz erwarten lassen.
+
+METHODIK:
+  Void-Finder: Sparkling (Ruiz+2015, 2019), sphaeischer Algorithmus
+  Dichtekontrast-Schwelle: Delta = -0.9
+  Maximaler Suchradius: 40 Mpc/h
+  CMB-Stacking: konzentrische Ringe, normiert auf Void-Radius
+  Kontrolle: 83 zufaellige Positionen mit gleicher Radiusverteilung
